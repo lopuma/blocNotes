@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Bloc de Apuntes</title>
+    <link rel="stylesheet" href="./public/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bloc de Apuntes</h1>
+    </header>
+    <div class="container">
+      <div class="sidebar">
+        <h2>Apuntes guardados</h2>
+        <div class="dropdown">
+            <button class="dropbtn">Notas guardadas</button>
+            <div class="dropdown-content" id="saved-notes-container"></div>
+        </div>  
+        <ul class="saved-notes">
+          <!-- Lista de apuntes guardados -->
+          
+        </ul>
+        <div id="notes-container"></div>
+
+      </div>
+
+
+      <div class="main">
+        <h2>Crear nuevo apunte</h2>
+        <div class="note-form">
+          <select name="note-type" id="note-type">
+            <option value="title">Título</option>
+            <option value="text">Texto</option>
+            <option value="code">Código</option>
+          </select>
+          <input type="text" name="note-title" id="note-title" placeholder="Título">
+          <textarea name="note-content" id="note-content" placeholder="Contenido"></textarea>
+          <button id="save-note">Guardar</button>
+        </div>
+        <div class="drag-drop">
+          <h2>Arrastrar y soltar</h2>
+          <div class="drag-drop-container">
+            <!-- Contenedor para arrastrar y soltar elementos -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

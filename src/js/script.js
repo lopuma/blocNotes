@@ -11,7 +11,7 @@ let totalCards = 0;
 
 (function savedNotes() {
     let article = "";
-    fetch("http://127.0.0.1:5500/blocNotes/src/data/data.json")
+    fetch("/blocNotes/src/data/data.json")
         .then((response) => response.json())
         .then((data) => {
             totalCards = data.length;

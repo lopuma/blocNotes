@@ -44,37 +44,39 @@
                         8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                     </svg>
             </button>
-            <div class="New">
-                <div class="New-head">
-                </div>
-                <div class="New-options" id="New-options">
-                    <article class="Option-menu">
-                        <button class="Option-element">
-                            Titulo
-                        </button>
-                        <button class="Option-element">
-                            Sub-Titulo
-                        </button>
-                        <button class="Option-element" onclick="crearElementoTexto()">
-                            Text Plano
-                        </button>
-                        <button class="Option-element">
-                            Menu
-                        </button>
-                        <button class="Option-element">
-                            Codigo
-                        </button>
-                        <button class="Option-element">
-                            Imagen
-                        </button>
-                    </article>
-                </div>
-                <div class="New-content" id="New-content">
-                    <div class="Content-drag" id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-                       <!-- automatico -->
+            <form action="New-form">
+                <div class="New">
+                    <div class="New-head">
+                    </div>
+                    <div class="New-options" id="New-options">
+                        <article class="Option-menu">
+                            <button class="Option-element">
+                                Titulo
+                            </button>
+                            <button class="Option-element">
+                                Sub-Titulo
+                            </button>
+                            <button class="Option-element" onclick="crearElementoTexto()">
+                                Text Plano
+                            </button>
+                            <button class="Option-element">
+                                Menu
+                            </button>
+                            <button class="Option-element">
+                                Codigo
+                            </button>
+                            <button class="Option-element">
+                                Imagen
+                            </button>
+                        </article>
+                    </div>
+                    <div class="New-content" id="New-content">
+                        <div class="Content-drag" id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+                           <!-- automatico -->
+                        </div>
                     </div>
                 </div>
-            </div>
+            </form>
         </section>
     </main>
     <script src="./js/script.js"></script>

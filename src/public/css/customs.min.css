@@ -1,0 +1,29 @@
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Convergence&family=Nunito:wght@700&family=Poppins:wght@700&display=swap');
+
+  :root {
+      /* TODO ALL */
+      --Font-family-principal: "Convergence", sans-serif;
+      --Background-Color-forms: #FBFBFB;
+      --Color-app: #537188;
+      --Color-app-hover: rgb(0, 126, 109);
+      --Color-active: #5271ff;
+      --Color-disable: rgb(124, 124, 124);
+      --Color-cards: rgba(198, 245, 239, 0.123);
+      --Color-gray: #F2F2F2;
+      --Color-border: #40576d15;
+      --Radius: 5px;
+      --Color-negro: #333;
+      --Color-bg-negro: #333;
+      --Color-text-negro: #333;
+      --Color-blanco: #fff;
+      --Color-text-blanco: #fff;
+      --Color-bg-blanco: #fff;
+      --Width-card: 330px;
+      --Height-card-bg: 80px;
+      --Height-card: 160px;
+      --Width-border-card: 8px;
+      --Height--divContainerNew: 1000px;
+      --Height--divNewHead: 150px;
+      --Height--divNewOptions: 100px;
+      --Height--divNewContent: 730px;
+  }

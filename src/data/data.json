@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "course_name": "JavaScript Programming",
+      "operating_system": "Windows",
+      "image": "js",
+      "categories": ["programming", "web development"]
+    },
+    {
+      "id": 2,
+      "course_name": "Advanced Graphic Design",
+      "operating_system": "Mac",
+      "image": "mac",
+      "categories": ["design", "creativity"]
+    },
+    {
+      "id": 3,
+      "course_name": "Introduction to Artificial Intelligence",
+      "operating_system": "Linux",
+      "image": "linux",
+      "categories": ["artificial intelligence", "machine learning"]
+    }
+    ,
+    {
+      "id": 4,
+      "course_name": "Introduction to Artificial Intelligence",
+      "operating_system": "Linux",
+      "image": "linux",
+      "categories": ["artificial intelligence", "machine learning"]
+    }
+    ,
+    {
+      "id": 5,
+      "course_name": "Introduction to Artificial Intelligence",
+      "operating_system": "Linux",
+      "image": "linux",
+      "categories": ["artificial intelligence", "machine learning"]
+    }
+]

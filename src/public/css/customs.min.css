@@ -19,11 +19,11 @@
       --Color-text-blanco: #fff;
       --Color-bg-blanco: #fff;
       --Width-card: 330px;
-      --Height-card-bg: 80px;
+      --Height-card-bg: 100px;
       --Height-card: 160px;
       --Width-border-card: 8px;
       --Height--divContainerNew: 1000px;
-      --Height--divNewHead: 150px;
+      --Height--divNewHead: 350px;
       --Height--divNewOptions: 100px;
-      --Height--divNewContent: 730px;
+      --Height--divNewContent: 800px;
   }

@@ -1,0 +1,54 @@
+<style>
+    /* Estilos CSS para la página 404 */
+    body {
+        background-color: #f3f3f3;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .error-message {
+        text-align: center;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .error-message p {
+        font-size: 1.2em;
+    }
+
+    .error-image {
+        max-width: 400px;
+        height: auto;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: var(--Color-app);
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: var(--Color-app-hover);
+    }
+</style>
+<div class="container">
+    <div class="error-message">
+        <p><strong style="color: var(--Color-app); font-size: 1.5em">{{descripcion}}</strong>, la página que estás buscando no pudo ser encontrada.</p>
+        <img class="error-image" src="/image/404.svg" alt="Error 404">
+        <a href="/" class="button">Volver</a>
+    </div>
+</div>

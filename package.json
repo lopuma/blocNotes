@@ -1,0 +1,37 @@
+{
+  "name": "blocnotes",
+  "version": "1.0.0",
+  "description": "Web application to create training notes or professional certifications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app",
+    "start": "node src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopuma/blocNotes.git"
+  },
+  "keywords": [
+    "blocnotes",
+    "notes",
+    "task",
+    "apuntes"
+  ],
+  "author": "Jose Alvaro Cedeño Panchana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lopuma/blocNotes/issues"
+  },
+  "homepage": "https://github.com/lopuma/blocNotes#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -3,7 +3,7 @@
       "id": 1,
       "course_name": "JavaScript Programming",
       "operating_system": "Windows",
-      "image": "js",
+      "image": "javascript",
       "categories": ["programming", "web development"]
     },
     {
@@ -23,17 +23,31 @@
     ,
     {
       "id": 4,
-      "course_name": "Introduction to Artificial Intelligence",
+      "course_name": "vCenter Server",
       "operating_system": "Linux",
-      "image": "linux",
-      "categories": ["artificial intelligence", "machine learning"]
+      "image": "vmware",
+      "categories": ["Sistemas", "Redes"]
     }
     ,
     {
       "id": 5,
-      "course_name": "Introduction to Artificial Intelligence",
+      "course_name": "React Native",
+      "operating_system": "Android",
+      "image": "android",
+      "categories": ["Desarollo movil", "Desarollo Android"]
+    },
+    {
+      "id": 6,
+      "course_name": "Asp.net Core",
       "operating_system": "Linux",
-      "image": "linux",
-      "categories": ["artificial intelligence", "machine learning"]
+      "image": "asp.net",
+      "categories": ["Desarollo movil", "Desarollo Android"]
+    },
+    {
+      "id": 7,
+      "course_name": "BMC Remedy",
+      "operating_system": "Windows",
+      "image": "bmc",
+      "categories": ["Desarollo movil", "Desarollo Android"]
     }
 ]

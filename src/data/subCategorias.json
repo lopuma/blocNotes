@@ -1,0 +1,332 @@
+[
+    {
+        "id": "redes",
+        "name": "Redes",
+        "icon": "redes"
+    },
+    {
+        "id": "seguridad",
+        "name": "Seguridad",
+        "icon": "seguridad"
+    },
+    {
+        "id": "virtualizacion",
+        "name": "Virtualizacion",
+        "icon": "virtualizacion"
+    },
+    {
+        "id": "ia",
+        "name": "Inteligencia Artificial",
+        "icon": "ia"
+    },
+    {
+        "id": "desarrollo",
+        "name": "Desarrollo",
+        "icon": "icon-next"
+      },
+      {
+        "id": "desarrollo-web",
+        "name": "Desarrollo web",
+        "icon": "icon-desarrollo-web"
+      },
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "icon": "icon-javascript"
+      },
+      {
+        "id": "react",
+        "name": "React JS",
+        "icon": "icon-react"
+      },
+      {
+        "id": "angular",
+        "name": "Angular",
+        "icon": "icon-angular"
+      },
+      {
+        "id": "css",
+        "name": "CSS",
+        "icon": "icon-css"
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.Js",
+        "icon": "icon-nodejs"
+      },
+      {
+        "id": "aspnet-core",
+        "name": "ASP.NET Core",
+        "icon": "icon-aspnet-core"
+      },
+      {
+        "id": "nextjs-p",
+        "name": "Next.js",
+        "icon": "icon-nextjs-p"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "icon": "icon-typescript"
+      },
+      {
+        "id": "ciencias-de-la-informacion",
+        "name": "Ciencias de la información",
+        "icon": "icon-ciencias-de-la-informacion"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "icon": "icon-python"
+      },
+      {
+        "id": "machine-learning",
+        "name": "Aprendizaje automático",
+        "icon": "icon-machine-learning"
+      },
+      {
+        "id": "chatgpt",
+        "name": "ChatGPT",
+        "icon": "icon-chatgpt"
+      },
+      {
+        "id": "artificial-intelligence",
+        "name": "Inteligencia artificial",
+        "icon": "icon-artificial-intelligence"
+      },
+      {
+        "id": "deep-learning",
+        "name": "Aprendizaje profundo",
+        "icon": "icon-deep-learning"
+      },
+      {
+        "id": "natural-language-processing",
+        "name": "Procesamiento del lenguaje natural",
+        "icon": "icon-natural-language-processing"
+      },
+      {
+        "id": "data-analysis",
+        "name": "Análisis de datos",
+        "icon": "icon-data-analysis"
+      },
+      {
+        "id": "r-programming-language",
+        "name": "R (lenguaje de programación)",
+        "icon": "icon-r-programming-language"
+      },
+      {
+        "id": "desarrollo-movil",
+        "name": "Desarrollo móvil",
+        "icon": "icon-desarrollo-movil"
+      },
+      {
+        "id": "google-flutter",
+        "name": "Google Flutter",
+        "icon": "icon-google-flutter"
+      },
+      {
+        "id": "android-development",
+        "name": "Desarrollo en Android",
+        "icon": "icon-android-development"
+      },
+      {
+        "id": "ios-development",
+        "name": "Desarrollo en iOS",
+        "icon": "icon-ios-development"
+      },
+      {
+        "id": "react-native",
+        "name": "React Native",
+        "icon": "icon-react-native"
+      },
+      {
+        "id": "dart-programming-language",
+        "name": "Dart (lenguaje de programación)",
+        "icon": "icon-dart-programming-language"
+      },
+      {
+        "id": "swift",
+        "name": "Swift",
+        "icon": "icon-swift"
+      },
+      {
+        "id": "swiftui",
+        "name": "SwiftUI",
+        "icon": "icon-swiftui"
+      },
+      {
+        "id": "kotlin",
+        "name": "Kotlin",
+        "icon": "icon-kotlin"
+      },
+      {
+        "id": "lenguajes-de-programacion",
+        "name": "Lenguajes de programación",
+        "icon": "icon-lenguajes-de-programacion"
+      },
+      {
+        "id": "desarrollo-de-videojuegos",
+        "name": "Desarrollo de videojuegos",
+        "icon": "icon-desarrollo-de-videojuegos"
+      },
+      {
+        "id": "diseno-y-desarrollo-de-bases-de-datos",
+        "name": "Diseño y desarrollo de bases de datos",
+        "icon": "icon-diseno-y-desarrollo-de-bases-de-datos"
+      },
+      {
+        "id": "testeo-de-software",
+        "name": "Testeo de software",
+        "icon": "icon-testeo-de-software"
+      },
+      {
+        "id": "ingenieria-de-software",
+        "name": "Ingeniería de software",
+        "icon": "icon-ingenieria-de-software"
+      },
+      {
+        "id": "herramientas-de-desarrollo-de-software",
+        "name": "Herramientas de desarrollo de software",
+        "icon": "icon-herramientas-de-desarrollo-de-software"
+      },
+      {
+        "id": "desarrollo-sin-codigo",
+        "name": "Desarrollo sin código",
+        "icon": "icon-desarrollo-sin-codigo"
+      },
+      {
+        "id": "negocios",
+        "name": "Negocios",
+        "icon": "icon-negocios"
+      },
+      {
+        "id": "emprendimiento",
+        "name": "Emprendimiento",
+        "icon": "icon-emprendimiento"
+      },
+      {
+        "id": "comunicacion",
+        "name": "Comunicación",
+        "icon": "icon-comunicacion"
+      },
+      {
+        "id": "gestion-empresarial",
+        "name": "Gestión empresarial",
+        "icon": "icon-gestion-empresarial"
+      },
+      {
+        "id": "ventas",
+        "name": "Ventas",
+        "icon": "icon-ventas"
+      },
+      {
+        "id": "estrategia-de-negocios",
+        "name": "Estrategia de negocios",
+        "icon": "icon-estrategia-de-negocios"
+      },
+      {
+        "id": "operaciones",
+        "name": "Operaciones",
+        "icon": "icon-operaciones"
+      },
+      {
+        "id": "gestion-de-proyectos",
+        "name": "Gestión de proyectos",
+        "icon": "icon-gestion-de-proyectos"
+      },
+      {
+        "id": "derecho-empresarial",
+        "name": "Derecho empresarial",
+        "icon": "icon-derecho-empresarial"
+      },
+      {
+        "id": "analitica-e-inteligencia-empresarial",
+        "name": "Analítica e inteligencia empresarial",
+        "icon": "icon-analitica-e-inteligencia-empresarial"
+      },
+      {
+        "id": "recursos-humanos",
+        "name": "Recursos humanos",
+        "icon": "icon-recursos-humanos"
+      },
+      {
+        "id": "industria",
+        "name": "Industria",
+        "icon": "icon-industria"
+      },
+      {
+        "id": "comercio-electronico",
+        "name": "Comercio electrónico",
+        "icon": "icon-comercio-electronico"
+      },
+      {
+        "id": "medios-de-comunicacion",
+        "name": "Medios de comunicación",
+        "icon": "icon-medios-de-comunicacion"
+      },
+      {
+        "id": "bienes-inmuebles",
+        "name": "Bienes inmuebles",
+        "icon": "icon-bienes-inmuebles"
+      },
+      {
+        "id": "negocios-otros",
+        "name": "Negocios, otros",
+        "icon": "icon-negocios-otros"
+      },
+      {
+        "id": "finanzas-y-contabilidad",
+        "name": "Finanzas y contabilidad",
+        "icon": "icon-finanzas-y-contabilidad"
+      },
+      {
+        "id": "informatica-y-software",
+        "name": "Informática y software",
+        "icon": "icon-informatica-y-software"
+      },
+      {
+        "id": "productividad-en-la-oficina",
+        "name": "Productividad en la oficina",
+        "icon": "icon-productividad-en-la-oficina"
+      },
+      {
+        "id": "desarrollo-personal",
+        "name": "Desarrollo personal",
+        "icon": "icon-desarrollo-personal"
+      },
+      {
+        "id": "diseno",
+        "name": "Diseño",
+        "icon": "icon-diseno"
+      },
+      {
+        "id": "marketing",
+        "name": "Marketing",
+        "icon": "icon-marketing"
+      },
+      {
+        "id": "estilo-de-vida",
+        "name": "Estilo de vida",
+        "icon": "icon-estilo-de-vida"
+      },
+      {
+        "id": "fotografia-y-video",
+        "name": "Fotografía y vídeo",
+        "icon": "icon-fotografia-y-video"
+      },
+      {
+        "id": "salud-y-fitness",
+        "name": "Salud y fitness",
+        "icon": "icon-salud-y-fitness"
+      },
+      {
+        "id": "musica",
+        "name": "Música",
+        "icon": "icon-musica"
+      },
+      {
+        "id": "ensenanzas-y-disciplinas-academicas",
+        "name": "Enseñanzas y disciplinas académicas",
+        "icon": "icon-ensenanzas-y-disciplinas-academicas"
+      }
+]

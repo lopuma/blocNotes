@@ -1,0 +1,22 @@
+[
+    {
+        "id": "linux",
+        "name": "Linux"
+    },
+    {
+        "id": "mac",
+        "name": "Mac"
+    },
+    {
+        "id": "windows",
+        "name": "Windows"
+    },
+    {
+        "id": "android",
+        "name": "Android"
+    },
+    {
+        "id": "ios",
+        "name": "iOS"
+    }
+]

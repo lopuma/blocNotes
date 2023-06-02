@@ -1,0 +1,124 @@
+<header>
+    <h1>Bloc de Apuntes</h1>
+</header>
+<main class="Container">
+    <section class="Container-saved Saved">
+        <div class="Save-head">
+            <h2 class="Save-title">Apuntes guardados</h2>
+            <span class="pin-icon"></span>
+        </div>
+        <div class="Saved-search">
+            <input type="text" class="Search-input" placeholder="Buscar">
+            <i class="Search-filter fa-solid fa-filter" id="Search-filter"></i>
+        </div>
+        <div class="Saved-cards" id="Saved-cards">
+        </div>
+    </section>
+    <section class="Container-new" id="Container-new">
+        <button class="Slider-arrow isPrev" id="isPrev" onClick="avanzaSlide(-1)">
+            <svg class="Slider-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0
+                    .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1
+                    0-.708l6-6a.5.5 0 0 1 .708 0z" />
+            </svg>
+        </button>
+        <button class="Slider-arrow isNext" id="isNext" onClick="avanzaSlide(1)">
+            <svg class="Slider-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16
+                16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708
+                    0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293
+                    8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+        </button>
+        <form class="New-note" id="New-note">
+            <div class="New">
+                <div class="New-head">
+                    <div class="Head-content">
+                        <div class="Head-title">
+                            <h2 class="Head-h2">Ingrese título:</h2>
+                            <div class="Head-input">
+                                <input type="text" id="tituloInput">
+                            </div>
+                        </div>
+                        <div class="Head-system">
+                            <h2 class="Head-h2">Seleccione sistema operativo:</h2>
+                            <div class="Head-radio">
+                                {{#each system}}
+                                <input type="radio" id="{{this.id}}" name="sistemaOperativo" value="{{this.name}}"
+                                    class="Radio">
+                                <label for="{{this.id}}" class="Radio-label">{{this.name}}</label>
+                                {{/each}}
+                            </div>
+                        </div>
+                        <div class="Head-subCategoria">
+                            <h2 class="Head-h2">Seleccione categorías:</h2>
+                            <div class="Head-checkbox">
+                                {{#each subCategorias}}
+                                <input type="checkbox" id="{{this.id}}" name="categoria" value="{{this.name}}"
+                                    class="Checkbox">
+                                <label for="{{this.id}}" class="Checkbox-label">{{this.name}}</label>
+                                {{/each}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="New-options " id="New-options">
+                    <article class="Option-menu horizontal-scroll-wrapper squares">
+                        <button class="Option-element">
+                            Titulo
+                        </button>
+                        <button class="Option-element">
+                            Sub-Titulo
+                        </button>
+                        <button class="Option-element" onclick="crearElementoTexto()">
+                            Text Plano
+                        </button>
+                        <button class="Option-element">
+                            Menu
+                        </button>
+                        <button class="Option-element">
+                            Codigo
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                        <button class="Option-element">
+                            Imagen
+                        </button>
+                    </article>
+                </div>
+                <div class="New-content" id="New-content">
+                    <div class="Content-drag" id="drop_zone">
+                        <!-- automático -->
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</main>

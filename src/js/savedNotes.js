@@ -1,4 +1,3 @@
-const fs = required('fs')
 class Task {
     constructor(id, courseName, operatingSystem, category, contentList, image) {
       this.id = id;
@@ -8,7 +7,4 @@ class Task {
       this.contentList = contentList;
       this.image = image;
     }
-
-
-  }
-  
+}
